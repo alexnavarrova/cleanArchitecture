@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Streamers\Commads\UpdateStreamer\" />
     <Folder Include="Features\Streamers\Queries\" />
     <Folder Include="Features\Videos\Commands\" />
   </ItemGroup>

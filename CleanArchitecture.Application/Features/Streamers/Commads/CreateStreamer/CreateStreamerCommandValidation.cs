@@ -1,7 +1,7 @@
 ﻿
 using FluentValidation;
 
-namespace CleanArchitecture.Application.Features.Streamers.Commads.CreateStreamer
+namespace CleanArchitecture.Application.Features.Streamers.Commands.CreateStreamer
 {
     public class CreateStreamerCommandValidation : AbstractValidator<CreateStreamerCommand>
     {

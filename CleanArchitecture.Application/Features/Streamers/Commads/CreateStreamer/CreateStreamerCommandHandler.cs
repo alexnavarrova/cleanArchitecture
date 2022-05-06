@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Contracts.Persistence;
-using CleanArchitecture.Domain;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using CleanArchitecture.Domain;
+using CleanArchitecture.Application.Contracts.Persistence;
 
-namespace CleanArchitecture.Application.Features.Streamers.Commads.CreateStreamer
+namespace CleanArchitecture.Application.Features.Streamers.Commands.CreateStreamer
 {
     public class CreateStreamerCommandHandler : IRequestHandler<CreateStreamerCommand, int>
     {
